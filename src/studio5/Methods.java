@@ -115,6 +115,16 @@ public class Methods {
 	}
 
 	// TODO: Create an arrayMean method which accepts an int array of values parameter.
+public static double arrayMean(int[] values) {
+		double sum = 0;
+		// FIXME: Compute the sum of the values in an array
+		for (int i = 0;i <= values.length-1; i++) {
+			sum = sum + values[i];
+		}
+		
+			return sum/values.length; 
+		
+	}
 	// TODO: Create a JavaDoc comment for the arrayMean method.
 
 	
