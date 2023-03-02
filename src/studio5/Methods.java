@@ -29,7 +29,14 @@ public class Methods {
 	 */
 	public static void drawBullsEye(double x, double y, double radius) {
 		StdDraw.setPenColor(StdDraw.BLACK);
-		StdDraw.filledCircle(x, y, radius);
+		StdDraw.filledCircle(.5, .5, .5);
+		StdDraw.setPenColor(StdDraw.BLUE);
+		StdDraw.filledCircle(.5, .5, .5*0.75);
+		StdDraw.setPenColor(StdDraw.RED);
+		StdDraw.filledCircle(.5, .5, .25);
+		StdDraw.setPenColor(StdDraw.YELLOW);
+		StdDraw.filledCircle(.5, .5, .5*.25);
+		
 
 		// TODO: Draw the remaining rings of the bull's eye
 		// Blue ring with 3.0/4.0 the radius
